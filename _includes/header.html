@@ -1,4 +1,4 @@
-<div class="container header-contianer">
+<div class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ site.name | escape }}</h1>
@@ -98,6 +98,11 @@
       {%- if site.website -%}
         <p>
           Web: {% include a.html href=site.website %}{{ site.website | escape }}</a>
+        </p>
+      {%- endif -%}
+      {%- if site.address -%}
+        <p>
+          Address: {{ site.address }}
         </p>
       {%- endif -%}
     </div>
