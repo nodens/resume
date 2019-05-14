@@ -1,9 +1,97 @@
 # Experience template
-- company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+- company: Virtua SA
+  link: https://www.virtua.ch
+  job_title: Senior Network/System Engineer
+  dates: March 2015 - present)
   quote: >
-   Short description of the company (optional)
+    Open Minded Swiss Digital Agency (part of Smile Group since 2018 - https://www.smile.eu)
   description: | # this will include new lines to allow paragraphs
-    Description of role
+
+    **Network Infrastructure Design & Management**
+    - BGP-only L3 Fabric, leaf-spine design
+      Enviromment: Cumulus Linux, Mikrotik, OpenBSD, Debian
+
+    **Systems Management**
+    (Internal tools and hosting services)
+    - Day to day administration of the Hosting Infrastructure: Linux (Debian, Ubuntu, CentOS), SmartOS (system containers, standalone and in Triton/SmartDataCenter setups), and FreeBSD;
+    - Design, deploy, operate and debug environment for in-house or customer coded applications (mostly web). Collaboration with software engineer teams.
+    Environment: Haproxy, Nginx, Apache httpd, Varnish, MySQL, PostgreSQL, Prometheus....
+    Configuration Management and Automation: Saltstack, Ansible
+
+    ---
+
+- company: Eolas – Business & Decision Group
+  link: https://www.eolas.fr
+  job_title: Leader Expert
+  dates: May 2011 - March 2015)
+  quote: >
+    Web Agency and Hosting Services
+  description: | # this will include new lines to allow paragraphs
+
+    **Co-leader of Network infrastructure team**
+    - Management of a team of 5 people,
+    - Design, maintenance and development of the network infrastructure:
+      3 Hosting & Housing datacenters, 2 network POPs, ~1300 managed servers
+      (~800 virtual servers), ~500 vlans, NSP for the B&D Group (France and
+      continental Europe, North Africa), Responsible for the WAN, L3
+      architecture and network filtering (Firewalls and DDoS Mitigation).
+
+    **Leader of Security Team**
+    - Management of a team of 3 people,
+    - Technological Watch, incident response, audits, penetration testing,
+      guidelines, procedure and compliance documents writing.
+
+    **Member of Technical Commitee**
+    - Design solutions and arbitrate technical issues,
+    - Debian Expert, FLOSS solutions Expert, Scalability & HA expert
+
+    ---
+
+- company: Eolas – Business & Decision Group
+  link: https://www.eolas.fr
+  job_title: Infrastructure Project Manager
+  dates: May 2008 - May 2011)
+  quote: >
+    Web Agency and Hosting Services
+  description: | # this will include new lines to allow paragraphs
+
+    **Co-leader of Network infrastructure team**
+    - Management of a team of 3 people
+    - Design, maintenance and development of the network infrastructure:
+      3 Hosting datacenters, ~600 managed servers (~300 virtual servers),
+      Eolas LAN;
+    - Co-design the new network infrastructure using a MPLS/OSPF
+      core and VPLS.
+
+    **Security Expert**
+    - Incident response, Technical advisor, penetration testing,
+      guidelines writing.
+
+    **Member of the Datacenter Design Team**
+    - participation in the design of a state of the art Green Datacenter
+      (notably building security, intrusion prevention, cable management) in
+      collaboration with Intel and Schneider. Writing of Eolas' application as
+      the first french French Endorser of the EU Code of Conduct for Energy
+      Efficient Datacenters.
+
+    ---
+
+- company: Eolas SARL - Business & Decision
+  link: https://www.eolas.fr
+  job_title: System & Network Engineer
+  dates: June 2001 - May 2008)
+  quote: >
+    Web Agency and Hosting Services
+  description: | # this will include new lines to allow paragraphs
+
+    **System & Network Administrator**
+    - Customers Technical support (L1, L2),
+    - System Maintenance (System and application Installation, Software and
+      Hardware maintenance), Heterogeneous environment (Windows/Linux).
+
+    **E-mail solutions expert**
+    - Design and maintenance of the Corporate E-mail solution (Sendmail/Cyrus
+      IMAP Murder cluster, distributed openLDAP directory, Canit-Pro –
+      Mimedefang, Horde).
+
+    ---
