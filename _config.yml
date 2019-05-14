@@ -5,12 +5,10 @@ repository: nodens/moderncv-jekyll
 
 # Personal info
 name: Clément Hermann
-title: Senior Network System Engineer / SRE
+title: Network/System Engineer
 email: nodens@nodens.org
 #phone: Your phone number (optional)
 #website: Your website (eg. https://google.com)(optional)
-address: |
-  Gex (France), Suisse Romande
 #address: |
 #  street</br>
 #  PC - City</br>
@@ -33,13 +31,17 @@ linkedin_username: clement-hermann
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+  * Senior System/Network Engineer - Site Reliability Engineer
+  * Free and Open Source Software enthousiast
+  * Debian contributor
+
+  ___
+
+  |:**Nationality:** French |:**Location:** Gex (France), French-speaking Switzerland |
+  |:**Driving Licences:** EU categories A,B |:**Languages:** **fr** (native speaker), **en** (fluent), **de** (basic) |
+
+
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
 
