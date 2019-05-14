@@ -54,10 +54,7 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Reading material of all kind
-   - Music
-   - Riding a Motorcycle
+  Alongside my interests in open source, infrastructure and engineering, I'm also an avid reader, and enjoy performing arts and music. Also, if I have to go somewhere - or nowhere - I prefer doing it walking or riding a motorbike.
 
 # Footer
 footer_show_references: false
