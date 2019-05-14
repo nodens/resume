@@ -1,31 +1,24 @@
 # Education Template
-- name: ITILv3 Foundation
-  dates: 2009
-  qualification: Certified
+- name: Training and Certifications
+  quote: >
+    Non-Académic Professional Training and Certifications
   description: | # this will include new lines to allow paragraphs
-    Official Training & Certification
+    - **ITILv3 Foundation** Certification _(2009)_
+    - **Implementing Cisco MPLS** v2.2 _(2008, part of CCNP)_
+    - **Microsoft Exchange 2000** _(2001, part of MSCP)_
 
-- name: Implementing Cisco MPLS v2.2
-  dates: 2008
-  qualification: Part of CCNP
-  description: | # this will include new lines to allow paragraphs
-    Official Cisco course on MPLS, considered then as one of the reference course on the subject.
-
-- name: Microsoft Exchange 2000 Course
-  dates: 2001
-  qualification: Part of MSCP
-  description: | # this will include new lines to allow paragraphs
-    Official Course on Microsoft Exchange, which revealed especially useful to
-    learn Microsoft Server specifics (Active Directory, LSASS...)
+    ___
 
 - name: Lycée Champollion, Grenoble (France)
   dates: 1996 - 1999
-  qualification: Baccalauréat Général, série Littéraire  (Majors in Musicology, Philosophy, Mathematics)
-  #quote: >
+  qualification: Baccalauréat
+  quote: >
+    Filière Générale, série Littéraire (Majors in Musicology, Philosophy, Mathematics)
   #  Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
-    While this was a Litterary cursus, with Philosophy and Musicology as major,
-    I spent a lot of my free time teaching myself how to use a computer,
-    discovered the concept of FOSS, installed my first linux distribution, and
-    spent probably too much time tring to make a high-end soundcard work on it
-    or on IRC, mainly on `#linuxfr` on `Undernet`. I still managed to secure honors (*Mention Assez Bien*).
+
+    While this was mainly a Litterary cursus, I spent a lot of my free time
+    teaching myself how to use a computer and Internet, discovered the concept
+    of FOSS, installed my first Linux distribution, and spent probably too much
+    time tring to make a high-end soundcard work on it or on IRC, mainly on
+    `#linuxfr` on `Undernet`.
