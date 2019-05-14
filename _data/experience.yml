@@ -7,16 +7,23 @@
     Open Minded Swiss Digital Agency (part of Smile Group since 2018 - https://www.smile.eu)
   description: | # this will include new lines to allow paragraphs
 
-    **Network Infrastructure Design & Management**
-    - BGP-only L3 Fabric, leaf-spine design
-      Enviromment: Cumulus Linux, Mikrotik, OpenBSD, Debian
+    **Network Infrastructure**
+    - Design & Management of a state of the art, BGP-only L3 Network Fabric,
+      with a leaf-spine design, using Cumulus Linux whitebox switches, Mikrotik
+      (WAN and DCi routers), OpenBSD and Debian
 
     **Systems Management**
     (Internal tools and hosting services)
-    - Day to day administration of the Hosting Infrastructure: Linux (Debian, Ubuntu, CentOS), SmartOS (system containers, standalone and in Triton/SmartDataCenter setups), and FreeBSD;
-    - Design, deploy, operate and debug environment for in-house or customer coded applications (mostly web). Collaboration with software engineer teams.
+    - Day to day administration of the Hosting Infrastructure: Linux (Debian,
+      Ubuntu, CentOS), SmartOS (system containers, standalone and in
+      Triton/SmartDataCenter setups), and FreeBSD;
+    - Design, deploy, operate and debug environment for in-house or customer
+      coded applications (mostly web). Collaboration with software engineer
+      teams (both in-house and customers').
+
     Environment: Haproxy, Nginx, Apache httpd, Varnish, MySQL, PostgreSQL, Prometheus....
-    Configuration Management and Automation: Saltstack, Ansible
+
+    Configuration Management and Automation: Saltstack, Ansible, Gitlab, Vagrant...
 
     ---
 
