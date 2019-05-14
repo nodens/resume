@@ -1,8 +1,31 @@
 # Education Template
-- name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
-  quote: >
-    Short institution or course description (optional)
+- name: ITILv3 Foundation
+  dates: 2009
+  qualification: Certified
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    Official Training & Certification
+
+- name: Implementing Cisco MPLS v2.2
+  dates: 2008
+  qualification: Part of CCNP
+  description: | # this will include new lines to allow paragraphs
+    Official Cisco course on MPLS, considered then as one of the reference course on the subject.
+
+- name: Microsoft Exchange 2000 Course
+  dates: 2001
+  qualification: Part of MSCP
+  description: | # this will include new lines to allow paragraphs
+    Official Course on Microsoft Exchange, which revealed especially useful to
+    learn Microsoft Server specifics (Active Directory, LSASS...)
+
+- name: Lycée Champollion, Grenoble (France)
+  dates: 1996 - 1999
+  qualification: Baccalauréat Général, série Littéraire  (Majors in Musicology, Philosophy, Mathematics)
+  #quote: >
+  #  Short institution or course description (optional)
+  description: | # this will include new lines to allow paragraphs
+    While this was a Litterary cursus, with Philosophy and Musicology as major,
+    I spent a lot of my free time teaching myself how to use a computer,
+    discovered the concept of FOSS, installed my first linux distribution, and
+    spent probably too much time tring to make a high-end soundcard work on it
+    or on IRC, mainly on `#linuxfr` on `Undernet`. I still managed to secure honors (*Mention Assez Bien*).
