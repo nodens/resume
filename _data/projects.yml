@@ -5,9 +5,13 @@
   quote: >
     The Debian Project is an association of individuals who have made common cause to create a free operating system. This operating system that we have created is called Debian.
   description: | # this will include new lines to allow paragraphs
+    ---
+
     I've been a user of Debian (Gnu/Linux) since 2000, using it as my main personnal OS since 2003, and a [regular contributor since 2013](https://contributors.debian.org/contributor/nodens-guest@alioth/).
     - Member of [Perl Group](https://perl-team.pages.debian.net/)
     - Member of [Go Packaging Team](https://go-team.pages.debian.net/)
     - Member of [Pkg Privacy Maintainers Team](https://wiki.debian.org/Teams/PkgPrivacyMaintainers)
 
     I plan to stay involved, and to become a full Debian Member in the future.
+    ---
+

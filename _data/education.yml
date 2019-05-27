@@ -3,6 +3,8 @@
   quote: >
     Non-Académic Professional Training and Certifications
   description: | # this will include new lines to allow paragraphs
+    ___
+
     - **ITILv3 Foundation** Certification _(2009)_
     - **Implementing Cisco MPLS** v2.2 _(2008, part of CCNP)_
     - **Microsoft Exchange 2000** _(2001, part of MSCP)_
@@ -16,6 +18,8 @@
     Filière Générale, série Littéraire (Majors in Musicology, Philosophy, Mathematics)
   #  Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
+
+    ___
 
     While this was mainly a Litterary cursus, I spent a lot of my free time
     teaching myself how to use a computer and Internet, discovered the concept
