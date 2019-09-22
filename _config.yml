@@ -7,6 +7,7 @@ repository: nodens/moderncv-jekyll
 name: Clément Hermann
 title: Network/System Engineer
 email: nodens@nodens.org
+canonicalurl: https://nodens.github.io/resume/
 #phone: Your phone number (optional)
 #website: Your website (eg. https://google.com)(optional)
 #address: |
@@ -57,7 +58,7 @@ more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in open source, infrastructure and engineering, I'm also an avid reader, and enjoy performing arts and music. Also, if I have to go somewhere - or nowhere - I prefer doing it walking or riding a motorbike.
 
 # Footer
-footer_show_references: false
+footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
