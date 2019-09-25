@@ -1,5 +1,5 @@
 # Project template
-- name: Debian contributor
+- name: Debian Developer
   link: https://www.debian.org
   #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
@@ -7,7 +7,7 @@
   description: | # this will include new lines to allow paragraphs
     ---
 
-    I've been a user of Debian (Gnu/Linux) since 2000, using it as my main personnal OS since 2003, and a [regular contributor since 2013](https://contributors.debian.org/contributor/nodens-guest@alioth/). I'm currently in the process of becoming a [Debian Developer](https://wiki.debian.org/DebianDeveloper) (with upload rights): my application has been approved, and will take effect in the next Debian Keyring update.
+    I've been a user of Debian (Gnu/Linux) since 2000, using it as my main personnal OS since 2003, and a [regular contributor since 2013](https://contributors.debian.org/contributor/nodens-guest@alioth/). I'm a [Debian Developer (with upload rights)](https://wiki.debian.org/DebianDeveloper) since September 2019.
     I'm also a member of the following teams:
     - [Perl Group](https://perl-team.pages.debian.net/)
     - [Go Packaging Team](https://go-team.pages.debian.net/)
