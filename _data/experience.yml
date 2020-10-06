@@ -1,5 +1,30 @@
 # Experience template
 - layout: left
+  company: 3Bis - nodens.ch
+  link: https://www.3bis.fr/annuaire-entrepreneurs/?recherche=Hermann#
+  job_title: Freelance Network/System Engineer & Architect - SRE
+  dates: January 2020 - present
+  quote: >
+    Coopérative d'Activité - Freelance Professionals Cooperative
+  description: | # this will include new lines to allow paragraphs
+
+    ---
+    **Management of infrastructures**, from drawing board to day-to-day ops:
+      - Networks (Datacentre, WAN, Entreprise, SDN, Cloud, Interconnect)
+      - Systems (Virtualized, bare-metal, containers…)
+      - Cloud (Private/Public/Hybrid)
+      - Devops (Infrastructure as Code, Workflow…)
+
+    ---
+    **Expertise:**
+      - Free Software / Open Source solutions
+      - Linux/BSD/Unix** Systems
+      - Open Networking
+      - Infrastructure as Code
+
+    ---
+
+- layout: left
   company: Virtua SA
   link: https://www.virtua.ch
   job_title: Senior Network/System Engineer
