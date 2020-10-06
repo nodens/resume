@@ -62,6 +62,7 @@
     **Configuration Management and Automation:** Saltstack, Ansible, Gitlab, Vagrant...
 
     ---
+    ---
 
 - layout: left
   company: Eolas – Business & Decision Group
@@ -95,6 +96,7 @@
     - Design solutions and arbitrate technical issues,
     - Debian Expert, FLOSS solutions Expert, Scalability & HA expert
 
+    ---
     ---
 
 - layout: left
@@ -132,6 +134,7 @@
       Efficient Datacenters.
 
     ---
+    ---
 
 - layout: left
   company: Eolas SARL - Business & Decision
@@ -156,4 +159,5 @@
       IMAP Murder cluster, distributed openLDAP directory, Canit-Pro –
       Mimedefang, Horde).
 
+    ---
     ---
