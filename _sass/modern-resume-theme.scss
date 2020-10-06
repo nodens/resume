@@ -1,50 +1,8 @@
 @import "base";
 @import "button";
 @import "type";
-
-ul.icons a:hover {
-  background: rgba(0, 0, 0, 0.025);
-}
-
-ul.icons li {
-  display: inline-block;
-  padding-left: 0.75em;
-}
-
-ul.icons a {
-  -moz-transition: background-color 0.25s ease-in-out;
-  -webkit-transition: background-color 0.25s ease-in-out;
-  -ms-transition: background-color 0.25s ease-in-out;
-  transition: background-color 0.25s ease-in-out;
-  display: inline-block;
-  width: 2.75em;
-  height: 2.75em;
-  line-height: 2.8em;
-  text-align: center;
-  border: 0;
-  box-shadow: none;
-  padding:0;
-  border-radius: 100%;
-  color: #aaa;
-}
-
-.icons i {
-  font-size: 30px;
-  line-height:60px;
-}
-
-.icons {
-  padding: 0;
-  font-size: 1em;
-  margin-bottom:20px;
-  text-align: right;
-}
-
-@media screen and (max-width: 768px) {
-  .icons {
-    text-align: center;
-  }
-}
+@import "dark";
+@import "icons";
 
 .header-right p {
   margin-bottom: 3px;
@@ -100,15 +58,15 @@ ul.icons a {
   }
 }
 
-.experience, .education, .project {
-  margin-top: 3em;
+.layout {
+  margin-top: 3rem;
 
-  .left-column {
+  .details {
     text-align: left;
 
     p {
       margin-bottom: 3px;
-      font-size: 1.6em;
+      font-size: 1.6rem;
       text-align: inherit;
       font-weight: 300;
 
@@ -118,10 +76,10 @@ ul.icons a {
     }
 
     @media screen and (max-width: 768px) {
-      text-align: center;
+      text-align: center!important;
 
       p {
-        text-align: center;
+        text-align: center!important;
       }
     }
 
@@ -132,19 +90,19 @@ ul.icons a {
     }
 
     .fa {
-      font-size: 2em;
+      font-size: 2rem;
     }
 
-    .project-link {
-      font-size: 1.5em;
+    .link {
+      font-size: 1.5rem;
     }
 
     h4 {
-      margin-bottom: 0.4em;
+      margin-bottom: 0.1rem;
       font-weight: 500;
 
       @media print {
-        margin-bottom: 0.2em;
+        margin-bottom: 0.2rem;
       }
 
       a {
@@ -154,17 +112,43 @@ ul.icons a {
   }
 }
 
+.layout-right, .layout-top-right {
+  .details {
+    text-align: right;
+  }
+}
+
+.layout-right {
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.layout-top-right {
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.layout-top-middle {
+  .details {
+    text-align: center;
+  }
+}
+
 .footer-container {
   margin-top:100px;
 }
 
-.footer-container p{
+.footer-container p {
   text-align: center;
   font-style: italic;
   font-weight: 300;
 }
 
-.footer-container a{
+.footer-container a {
   color: inherit;
   font-style: italic;
   font-weight: 300;
@@ -188,14 +172,14 @@ ul.icons a {
 }
 
 p.quote {
-  font-size: 1.4em;
+  font-size: 1.4rem;
   font-style: italic;
-  padding: 1em 2.5em;
+  padding: 1rem 2.5rem;
   text-align: center;
 
   @media print {
     text-align: left;
-    padding: 0em 1em;
-    margin-top: 1em;
+    padding: 0rem 1rem;
+    margin-top: 1rem;
   }
 }

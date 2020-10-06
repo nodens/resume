@@ -1,5 +1,6 @@
 # Project template
-- name: Debian Developer
+- layout: top-middle
+  name: Debian Developer
   link: https://www.debian.org
   #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
