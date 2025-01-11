@@ -29,6 +29,34 @@
     ---
 
 - layout: left
+  company: MindMaze SA
+  link: https://www.mindmaze.com
+  job_title: Network/System (Linux) Administrator - Infrastructure
+  dates: November 2022 - December 2024
+  quote: >
+    Pioneering Digital Neurotherapeutics - Building the universal platform for brain health and recovery
+  description: | # this will include new lines to allow paragraphs
+
+    ---
+
+    **Systems Management**
+    - Handle day to day administration of MM Infrastructure (mix of on premise, remote datacenter and cloud services):
+    - Automation of processes (improve existing bricks and automate more things)
+    - Assist CSO: provide expertise and insight on compliance and technical aspects
+    ---
+
+    **Environment:**
+      - Systems: Linux (Debian, Ubuntu)
+      - Virtualization and Cloud Management: Docker, K0s, AWS, GCP, Azure, Proxmox, Incus
+      - Network: Linux (HAProxy, Keepalived, IPtables/NFtables), Mikrotik, Zyxel…
+      - Configuration management and Automation: Ansible, Docker, Kubernetes, Teraform, Vagrant…
+      - Monitoring: Zabbix, Prometheus, Grafana, InfluxDB, SNMP, CAPWAP
+      - Code, projects, documentation and issues management: Atlassian (Bitbucket, Jira, Confluence), Jenkins, Owncloud…
+
+    ---
+    ---
+
+- layout: left
   company: Virtua SA
   link: https://www.virtua.ch
   job_title: Senior Network/System Engineer
