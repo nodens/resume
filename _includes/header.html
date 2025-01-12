@@ -83,13 +83,6 @@
             </a>
           </li>
         {%- endif -%}
-        {%- if site.googleplus_username -%}
-          <li>
-            <a target="_blank" href="https://plus.google.com/{{ site.googleplus_username| escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-google-plus" title="Google plus link"></i>
-            </a>
-          </li>
-        {%- endif -%}
         {%- if site.orcid_username -%}
           <li>
             <a target="_blank" href="https://orcid.org/{{ site.orcid_username | escape }}" class="button button--sacnite button--round-l">
@@ -97,10 +90,17 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.googlescholar_username -%}
+          <li>
+            <a target="_blank" href="https://scholar.google.com/citations?user={{ site.googlescholar_username| escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-google" title="Google scholar link"></i>
+            </a>
+          </li>
+        {%- endif -%}
         {% for link in site.additional_links %}
           <li>
             {% include a.html href=link.url class="button button--sacnite button--round-l" %}
-              <i class="fab {{ link.icon }}" title="{{ link.title | escape }}"></i>
+              <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
             </a>
           </li>
         {% endfor %}

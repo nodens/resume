@@ -1,7 +1,11 @@
 # Site
 #repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume
-repository: nodens/moderncv-jekyll
+repository: nodens/resume
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+
+# Content configuration version
+version: 2
 
 # Personal info
 name: Clément Hermann
@@ -19,8 +23,9 @@ canonicalurl: https://nodens.github.io/resume/
 darkmode: false
 
 # Social links
-twitter_username: nodens2099
+#twitter_username: nodens2099
 github_username:  nodens
+#stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
@@ -29,13 +34,13 @@ linkedin_username: clement-hermann
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll
-#googleplus_username: +jekyll
 #orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 #additional_links:
 #- title: Link name
-#  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
@@ -54,30 +59,289 @@ about_content: | # this will include new lines to allow paragraphs
 
   * Senior System/Network Engineer - Site Reliability Engineer
   * Free and Open Source Software enthousiast
-  * Debian Developer
+  * Debian Project Member (with upload rights)
 
   ___
 
-  |:**Nationality:** French |:**Location:** Grenoble (France), French-speaking Switzerland |
-  |:**Driving Licences:** EU categories A,B |:**Languages:** **fr** (native speaker), **en** (fluent), **de** (basic) |
+  |**Nationality:** French |**Location:** Lausanne, Vaud, Switzerland |
+  |**Driving Licences:** CH categories A,B |**Languages:** **fr** (native speaker), **en**, **de** (basic) |
 
 
-# Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+content:
+  - title: Experience
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 3Bis - nodens.ch
+        link: https://www.3bis.fr/annuaire-entrepreneurs/?recherche=Hermann#
+        sub_title: Freelance Network/System Engineer & Architect - SRE
+        caption: January 2020 - present
+        quote: >
+          Coopérative d'Activité - Freelance Professionals Cooperative
+        description: | # this will include new lines to allow paragraphs
 
-# Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
+          ---
+          **Management of infrastructures**, from drawing board to day-to-day ops:
+            - Networks (Datacentre, WAN, Entreprise, SDN, Cloud, Interconnect)
+            - Systems (Virtualized, bare-metal, containers…)
+            - Cloud (Private/Public/Hybrid)
+            - Devops (Infrastructure as Code, Workflow…)
 
-# Education Section
-# education_title: Education #(Use this to override about education section title)
+          ---
+          **Expertise:**
+            - Free Software / Open Source solutions
+            - Linux/BSD/Unix** Systems
+            - Open Networking
+            - Infrastructure as Code
 
-# More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in open source, infrastructure and engineering, I'm also an avid reader, and enjoy performing arts and music. Also, if I have to go somewhere - or nowhere - I prefer doing it walking or riding a motorbike.
+          ---
+          *References on request*
+
+          ---
+          ---
+
+      - layout: left
+        title: MindMaze SA
+        link: https://www.mindmaze.com
+        sub_title: Network/System (Linux) Administrator - Infrastructure
+        caption: November 2022 - December 2024
+        quote: >
+          Pioneering Digital Neurotherapeutics - Building the universal platform for brain health and recovery
+        description: | # this will include new lines to allow paragraphs
+
+          ---
+
+          **Systems Management**
+          - Handle day to day administration of MM Infrastructure (mix of on premise, remote datacenter and cloud services):
+          - Automation of processes (improve existing bricks and automate more things)
+          - Assist CSO: provide expertise and insight on compliance and technical aspects
+          ---
+
+          **Environment:**
+            - Systems: Linux (Debian, Ubuntu)
+            - Virtualization and Cloud Management: Docker, K0s, AWS, GCP, Azure, Proxmox, Incus
+            - Network: Linux (HAProxy, Keepalived, IPtables/NFtables), Mikrotik, Zyxel…
+            - Configuration management and Automation: Ansible, Docker, Kubernetes, Teraform, Vagrant…
+            - Monitoring: Zabbix, Prometheus, Grafana, InfluxDB, SNMP, CAPWAP
+            - Code, projects, documentation and issues management: Atlassian (Bitbucket, Jira, Confluence), Jenkins, Owncloud…
+
+          ---
+          ---
+
+      - layout: left
+        title: Virtua SA
+        link: https://www.virtua.ch
+        sub_title: Senior Network/System Engineer
+        caption: March 2015 - December 2019 (Morges, Switzerland)
+        quote: >
+          Open Minded Swiss Digital Agency (part of Smile Group since 2018 - https://www.smile.eu)
+        description: | # this will include new lines to allow paragraphs
+
+          ---
+
+          **Network Infrastructure**
+          - Design & Management of a state of the art, BGP-only L3 Network Fabric,
+            with a leaf-spine design, using Cumulus Linux whitebox switches, Mikrotik
+            (WAN and DCi routers), OpenBSD and Debian
+
+          ---
+
+          **Systems Management**
+          (Internal tools and hosting services)
+          - Day to day administration of the Hosting Infrastructure: Linux (Debian,
+            Ubuntu, CentOS), SmartOS (system containers, standalone and in
+            Triton/SmartDataCenter setups), and FreeBSD;
+          - Design, deploy, operate and debug environment for in-house or customer
+            coded applications (mostly web). Collaboration with software engineer
+            teams (both in-house and customers').
+
+          ---
+
+          **Environment:** Haproxy, Nginx, Apache httpd, Varnish, MySQL, PostgreSQL, Prometheus....
+
+          **Configuration Management and Automation:** Saltstack, Ansible, Gitlab, Vagrant...
+
+          ---
+          ---
+
+      - layout: left
+        title: Eolas – Business & Decision Group
+        link: https://www.eolas.fr
+        sub_title: Leader Expert
+        caption: May 2011 - March 2015 (Grenoble, France)
+        quote: >
+          Web Agency and Hosting Services
+        description: | # this will include new lines to allow paragraphs
+
+          ---
+
+          **Co-leader of Network infrastructure team**
+          - Management of a team of 5 people,
+          - Design, maintenance and development of the network infrastructure:
+            3 Hosting & Housing datacenters, 2 network POPs, ~1300 managed servers
+            (~800 virtual servers), ~500 vlans, NSP for the B&D Group (France and
+            continental Europe, North Africa), Responsible for the WAN, L3
+            architecture and network filtering (Firewalls and DDoS Mitigation).
+
+          ---
+
+          **Leader of Security Team**
+          - Management of a team of 3 people,
+          - Technological Watch, incident response, audits, penetration testing,
+            guidelines, procedure and compliance documents writing.
+
+          ---
+
+          **Member of Technical Commitee**
+          - Design solutions and arbitrate technical issues,
+          - Debian Expert, FLOSS solutions Expert, Scalability & HA expert
+
+          ---
+          ---
+
+      - layout: left
+        title: Eolas – Business & Decision Group
+        link: https://www.eolas.fr
+        sub_title: Infrastructure Project Manager
+        caption: May 2008 - May 2011 (Grenoble, France)
+        quote: >
+          Web Agency and Hosting Services
+        description: | # this will include new lines to allow paragraphs
+
+          ---
+
+          **Co-leader of Network infrastructure team**
+          - Management of a team of 3 people
+          - Design, maintenance and development of the network infrastructure:
+            3 Hosting datacenters, ~600 managed servers (~300 virtual servers),
+            Eolas LAN;
+          - Co-design the new network infrastructure using a MPLS/OSPF
+            core and VPLS.
+
+          ---
+
+          **Security Expert**
+          - Incident response, Technical advisor, penetration testing,
+            guidelines writing.
+
+          ---
+
+          **Member of the Datacenter Design Team**
+          - Participation in the design of a state of the art Green Datacenter
+            (notably building security, intrusion prevention, cable management) in
+            collaboration with Intel and Schneider. Writing of Eolas' application as
+            the first french French Endorser of the EU Code of Conduct for Energy
+            Efficient Datacenters.
+
+          ---
+          ---
+
+      - layout: left
+        title: Eolas SARL - Business & Decision
+        link: https://www.eolas.fr
+        sub_title: System & Network Engineer
+        caption: June 2001 - May 2008 (Grenoble, France)
+        quote: >
+          Web Agency and Hosting Services
+        description: | # this will include new lines to allow paragraphs
+
+          ---
+
+          **System & Network Administrator**
+          - Customers Technical support (L1, L2),
+          - System Maintenance (System and application Installation, Software and
+            Hardware maintenance), Heterogeneous environment (Windows/Linux).
+
+          ---
+
+          **E-mail solutions expert**
+          - Design and maintenance of the Corporate E-mail solution (Sendmail/Cyrus
+            IMAP Murder cluster, distributed openLDAP directory, Canit-Pro –
+            Mimedefang, Horde).
+
+          ---
+          ---
+  - title: (Main) Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        name: Debian - the universal operating system
+        link: https://www.debian.org
+        link_text: www.debian.org
+#        additional_links:
+#          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#            icon: fab fa-github
+#            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#            icon: fab fa-github
+#            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          The Debian Project is an association of individuals who have made common cause to create a free operating system. This operating system that we have created is called Debian.
+        description: | # this will include new lines to allow paragraphs
+          ---
+
+          I've been a user of Debian (Gnu/Linux) since 2000, using it as my main personnal OS since 2003, and a [regular contributor since 2013](https://contributors.debian.org/contributor/nodens-guest@alioth/). I'm a [Debian Developer (with upload rights)](https://wiki.debian.org/DebianDeveloper) since September 2019.
+          I'm also a member of the following teams:
+          - [Perl Group](https://perl-team.pages.debian.net/)
+          - [Go Packaging Team](https://go-team.pages.debian.net/)
+          - [Pkg Privacy Maintainers Team](https://wiki.debian.org/Teams/PkgPrivacyMaintainers)
+
+          ---
+          ---
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Training and Certifications
+        sub_title:
+        caption:
+        quote: >
+          Various non-academic professional training and certifications
+        description: | # this will include new lines to allow paragraphs
+          ___
+
+          - **RIPE NCC - IPv6 Training Course** _(2013)_
+          - **RIPE NCC - RIPE Database Training Course** _(2013)_
+          - **RIPE NCC - IPv6 for LIRs Training Course** _(2011)_
+          - **RIPE NCC - Routing Registry Training Course** _(2011)_
+          - **ITILv3 Foundation** Certification _(2009)_
+          - **Implementing Cisco MPLS** v2.2 _(2008, part of CCNP)_
+          - **Microsoft Exchange 2000** _(2001, part of MSCP)_
+
+          ___
+          ___
+
+      - layout: top-right
+        title: Lycée Champollion, Grenoble (France)
+        sub_title: Baccalauréat
+        caption: 1996 - 1999
+        quote: >
+          Filière Générale, série Littéraire (Majors in Musicology, Philosophy, Mathematics)
+        #  Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+
+          ___
+
+          While this was mainly a humanities cursus, I spent a lot of my free time
+          teaching myself how to use a computer and Internet, discovered the concept
+          of FOSS, installed my first Linux distribution, and spent probably too much
+          time trying to make a high-end soundcard work with it - or on IRC on
+          FOSS oriented channels.
+
+          ___
+          ___
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in open source, infrastructure and engineering, I'm also an avid reader, and enjoy performing arts and music (almost all genres). Also, if I have to go somewhere - or nowhere - I prefer doing it walking or riding a motorbike.
 
 # Footer
 footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
