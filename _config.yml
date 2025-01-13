@@ -119,10 +119,11 @@ content:
 
           ---
 
-          **Systems Management**
-          - Handle day to day administration of MM Infrastructure (mix of on premise, remote datacenter and cloud services):
+          **Infrastructure + LAN Management**
+          - Handle day to day administration of MM Infrastructure (mix of on premise, remote datacenter and cloud services)
           - Automation of processes (improve existing bricks and automate more things)
           - Assist CSO: provide expertise and insight on compliance and technical aspects
+
           ---
 
           **Environment:**
