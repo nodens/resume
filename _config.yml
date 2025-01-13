@@ -274,16 +274,19 @@ content:
           - Design and maintenance of the Corporate E-mail solution (Sendmail/Cyrus
             IMAP Murder cluster, distributed openLDAP directory, Canit-Pro –
             Mimedefang, Horde).
+          ---
 
           ---
-          ---
-  - title: (Main) Projects # Title for the section
+
+
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        border: none  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        name: Debian - the universal operating system
+        title: Debian
+        sub_title: The Universal Operating System
         link: https://www.debian.org
         link_text: www.debian.org
 #        additional_links:
