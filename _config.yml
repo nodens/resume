@@ -308,33 +308,45 @@ content:
           - [Pkg Privacy Maintainers Team](https://wiki.debian.org/Teams/PkgPrivacyMaintainers)
 
           ---
+
           ---
+
+  - title: Professional Training & Certifications
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: RIPE NCC
+        caption:
+        description: | # this will include new lines to allow paragraphs
+
+          - **IPv6** Training Course _(2013)_
+          - **RIPE** Database Training Course _(2013)_
+          - **IPv6 for LIRs** Training Course _(2011)_
+          - **Routing Registry** Training Course _(2011)_
+
+      - layout: left
+        border: weak
+        title: ITIL
+        caption: ITIL 2007 Edition
+        description: | # this will include new lines to allow paragraphs
+
+          - **ITILv3 Foundation** Certification _(2009)_
+
+
+      - layout: left
+        title: CISCO
+        caption: Cisco Certified Network Professional
+        description: | # this will include new lines to allow paragraphs
+
+          - **Implementing Cisco MPLS** v2.2 _(2008, part of CCNP)_
+
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Training and Certifications
-        sub_title:
-        caption:
-        quote: >
-          Various non-academic professional training and certifications
-        description: | # this will include new lines to allow paragraphs
-          ___
-
-          - **RIPE NCC - IPv6 Training Course** _(2013)_
-          - **RIPE NCC - RIPE Database Training Course** _(2013)_
-          - **RIPE NCC - IPv6 for LIRs Training Course** _(2011)_
-          - **RIPE NCC - Routing Registry Training Course** _(2011)_
-          - **ITILv3 Foundation** Certification _(2009)_
-          - **Implementing Cisco MPLS** v2.2 _(2008, part of CCNP)_
-          - **Microsoft Exchange 2000** _(2001, part of MSCP)_
-
-          ___
-          ___
-
-      - layout: top-right
-        title: Lycée Champollion, Grenoble (France)
-        sub_title: Baccalauréat
+      - layout: Left
+        title: Baccalauréat
+        sub_title: Lycée Champollion, Grenoble, France
         caption: 1996 - 1999
         quote: >
           Filière Générale, série Littéraire (Majors in Musicology, Philosophy, Mathematics)
@@ -343,14 +355,16 @@ content:
 
           ___
 
-          While this was mainly a humanities cursus, I spent a lot of my free time
+          While this was mainly a cursus in humanities, I spent a lot - most - of my free time
           teaching myself how to use a computer and Internet, discovered the concept
           of FOSS, installed my first Linux distribution, and spent probably too much
           time trying to make a high-end soundcard work with it - or on IRC on
           FOSS oriented channels.
 
-          ___
-          ___
+          ---
+
+          ---
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
