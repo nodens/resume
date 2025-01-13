@@ -71,11 +71,11 @@ content:
   - title: Experience
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+      - layout: left # (options: left, right, top, top-right, top-middle)(default: left)
+        border: none  # Value of `weak` will display a weak border below this item. # Any
                       # other value (or no value) means no border will be displayed
-        title: 3Bis - nodens.ch
-        link: https://www.3bis.fr/annuaire-entrepreneurs/?recherche=Hermann#
+        title: 3BIS - nodens.ch
+        link: https://www.3bis.fr/annuaire/clement-hermann/
         sub_title: Freelance Network/System Engineer & Architect - SRE
         caption: January 2020 - present
         quote: >
@@ -100,9 +100,11 @@ content:
           *References on request*
 
           ---
+
           ---
 
       - layout: left
+        border: none
         title: MindMaze SA
         link: https://www.mindmaze.com
         sub_title: Network/System (Linux) Administrator - Infrastructure
@@ -110,6 +112,10 @@ content:
         quote: >
           Pioneering Digital Neurotherapeutics - Building the universal platform for brain health and recovery
         description: | # this will include new lines to allow paragraphs
+          ---
+
+          ---
+
 
           ---
 
@@ -128,9 +134,11 @@ content:
             - Code, projects, documentation and issues management: Atlassian (Bitbucket, Jira, Confluence), Jenkins, Owncloud…
 
           ---
+
           ---
 
       - layout: left
+        border: none
         title: Virtua SA
         link: https://www.virtua.ch
         sub_title: Senior Network/System Engineer
@@ -164,9 +172,11 @@ content:
           **Configuration Management and Automation:** Saltstack, Ansible, Gitlab, Vagrant...
 
           ---
+
           ---
 
       - layout: left
+        border: none
         title: Eolas – Business & Decision Group
         link: https://www.eolas.fr
         sub_title: Leader Expert
@@ -199,9 +209,11 @@ content:
           - Debian Expert, FLOSS solutions Expert, Scalability & HA expert
 
           ---
+
           ---
 
       - layout: left
+        border: none
         title: Eolas – Business & Decision Group
         link: https://www.eolas.fr
         sub_title: Infrastructure Project Manager
@@ -236,9 +248,11 @@ content:
             Efficient Datacenters.
 
           ---
+
           ---
 
       - layout: left
+        border: none
         title: Eolas SARL - Business & Decision
         link: https://www.eolas.fr
         sub_title: System & Network Engineer
